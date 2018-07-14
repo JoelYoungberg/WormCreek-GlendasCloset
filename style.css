@@ -1,0 +1,1460 @@
+/*__________________________________General Site Wide Styles__________________________________*/
+body {
+    text-align: center;
+    margin: 0;
+}
+
+a {/*Removing Link Underlines Everywhere because they are ugly */
+    text-decoration: none;
+}
+
+.tempPlacementinput{
+ background-color:White;
+ height:50px;
+ width: 300px;
+ position: Relative;
+ right: -430px;
+ margin-right: 20px;
+}
+
+.additembtn{
+    margin-left:20px;
+    position: relative;
+    top: -50px;
+}
+
+/*Login Screen_______________________________________________________________________________ */
+
+.LoginBox{
+    display:inline-block;
+    margin-top:10px;
+    height: 25px;
+    width:300px;
+}
+
+.confirmationLogin{
+    text-align: center;
+    border: 2px solid #5299a8;
+    padding-top: 8px;
+    height: 25px;
+    border-radius: 15px;
+    color: #5299a8;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+     }
+
+.loginSpace{
+    height:50px;
+    padding-top: 2px;
+
+}
+/*Large Buttons_______________________________________________________________________________ */
+.LargeButton {
+    background-color: #5299a8;
+    border: 2px solid white;
+    color:white;
+    padding: 15px 32px;
+    border-radius: 8px;
+    width: 320px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    float: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.LargeButton:hover {
+    background-color: #3a2f27;
+    color: white;
+}
+/*____________________________________________________________________________________________*/
+
+/*Medium Buttons_______________________________________________________________________________ */
+.mediumbtn {
+    background-color: #5299a8;
+    border: 2px solid white;
+    color:white;
+    padding: 15px 34px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.mediumbtn:hover {
+    background-color: #3a2f27;
+    color: white;
+}
+
+.mediumbtnSpecial {
+    background-color: #5299a8;
+    border: 2px solid white;
+    color:white;
+    padding: 0px 34px 0px 34px;
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px; 
+    position: relative;
+    bottom:10px;
+}
+
+.mediumbtnSpecial:hover {
+    background-color: #3a2f27;
+    color: white;
+}
+
+
+.mediumbtnCancel {
+    background-color: #fa3030;
+    border: 2px solid white;
+    color:white;
+    padding: 15px 34px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.mediumbtnCancel:hover {
+    background-color: #3a2f27;
+    color: white;
+}
+
+.SaveContinueCancelSpacing{
+    margin-right: 5px;
+}
+
+.btnSearch {
+    background-color: #5299a8;
+    border: 2px solid white;
+    color:white;
+    padding: 15px 32px;
+    width: 140px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.btnSearch:hover {
+    background-color: #3a2f27;
+    color: white;
+}
+
+.btnSearchPlace{
+    position: relative;
+    right:-235px;
+    top: -57px;
+}
+
+.btnReset {
+    background-color: #fa3030;
+    border: 2px solid white;
+    color:white;
+    padding: 15px 32px;
+    width: 140px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.btnReset:hover {
+    background-color: #3a2f27;
+    color: white;
+}
+
+.btnResetPlace{
+    position: relative;
+    right:-240px;
+    top: -57px;
+}
+.mediumDropShadow{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*____________________________________________________________________________________________*/
+
+
+/*Small Buttons_______________________________________________________________________________ */
+.btnsm{
+    background-color: #5299a8;
+    border: 1px solid #ffffff;
+    color:white;
+    padding: 7px 7px;
+    width: 90px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.btnsm:hover {
+    background-color: #3a2f27;
+    font-weight: 900;
+    color: white;
+}
+
+.btnsmDelete{
+    background-color: #d64e4a;
+    border: 1px solid #ffffff;
+    color:white;
+    padding: 7px 7px;
+    width: 90px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.btnsmDelete:hover {
+    background-color: #3a2f27;
+    font-weight: 900;
+    color: white;
+}
+
+.EditDeleteButtonPosition {
+    margin-top: 10px;
+}
+/*____________________________________________________________________________________________*/
+
+/*Square Buttons_______________________________________________________________________________ */
+.iconhome{
+    height: 48px;
+    width: 48px;
+    float:left;
+    Margin-right:5px;
+    border: solid white 2px;
+    background: url("Images/Site/HomeButton.png") no-repeat;
+    background-size: 48px 48px;
+ }
+
+ .iconhome:hover{
+   height: 48px;
+   width: 48px;
+   float:left;
+   Margin-right:5px;
+   background: url("Images/Site/HomeButtonHover.png") no-repeat;
+   background-size: 48px 48px;
+ }
+
+ .iconback{
+   height: 48px;
+   width: 48px;
+   float:left;
+   Margin-right:5px;
+   border: solid white 2px;
+   background: url("Images/Site/BackButton.png") no-repeat;
+   background-size: 48px 48px;
+}
+
+.iconback:hover{
+   height: 48px;
+   width: 48px;
+  float:left;
+  Margin-right:5px;
+  background: url("Images/Site/BackButtonHover.png") no-repeat;
+  background-size: 48px 48px;
+}
+
+.OrdBtnspacing{
+    margin-left: 148px;
+}
+
+/*____________________________________________________________________________________________*/
+
+
+/*Title Bar Image Style_______________________________________________________________________*/
+#TitleBarPic{
+    max-width: 1000px;
+    height: auto;
+    }
+ /*____________________________________________________________________________________________*/   
+
+
+/*White Brown Faded Background Style_______________________________________________________________________*/
+ .border {
+    margin: auto;
+    max-width: 800px;
+    border: 2px solid black;
+}
+
+.lighten{
+    display: inline-block;
+    width:1000px;
+    background-color: rgba(58,48,39,.8);
+	color:white;
+}
+
+.InventoryOpacity{
+    display: inline-block;
+    width:1000px;
+    background-color: #ffffff;
+    opacity:0.8;
+    filter:alpha(opacity=100);
+    padding-bottom: 320px;
+}
+.OpenPageOpacity{
+    display: inline-block;
+    width:1000px;
+    background-color: #ffffff;
+    opacity:0.8;
+    filter:alpha(opacity=100);
+    padding-bottom: 415px;
+}
+
+.BlueBackdrop{
+    display: inline-block;
+    width:850px;
+    background-color: #91bfc9;
+    opacity:0.8;
+    filter:alpha(opacity=100);
+	;
+}
+
+/*____________________________________________________________________________________________*/   
+
+
+/*Item List Style_______________________________________________________________________*/
+.BottomDivideLine {
+    text-align: left;
+    padding-left: 25px;
+    border-bottom:  2px solid black;
+    overflow: hidden;
+}
+
+.listLeftCol {
+    float: left;
+    width: 300px;
+    line-height: 150%;
+}
+
+.listImageCol {
+    float: left;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.ItemImageWidth{
+    width: 200px;
+}
+
+.listRightCol {
+    float: right;
+    max-width: 300px;
+}
+
+.listRightColPublic {
+    width: 220px;
+    float: right;
+}
+
+.PublicListRightText {
+text-transform: capitalize;
+text-align: center;
+}
+
+.CustomerlistLeftCol{
+    float: left;
+    width: 650px;
+    line-height: 1.5;
+
+}
+
+
+
+
+/*____________________________________________________________________________________________*/   
+
+/*Customer List Style_______________________________________________________________________*/
+.CustomerLeftCol {
+    float: left;
+    width: 600px;
+    line-height: 150%;
+}
+
+.CustomerRightCol {
+    float: right;
+    padding-right: 30px;
+    Padding-top: 20px;
+    max-width: 300px;
+}
+
+/*____________________________________________________________________________________________*/  
+
+
+
+/*Drop Down List Color Style_______________________________________________________________________*/
+
+#statSelect{
+    margin-right: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background: #ffffff;
+}
+
+.available{ 
+    color:#018101;
+    font-weight: bold;
+}
+
+.notavailable{ 
+    color:#760000;
+    font-weight: bold;
+}
+
+.missing{ 
+    color:#760000;
+    font-weight: bold;
+}
+
+.cleaning{ 
+    color:#ff9507;
+    font-weight: bold;
+}
+
+.mending{ 
+    color:#ff9507;
+    font-weight: bold;
+}
+/*____________________________________________________________________________________________*/   
+
+
+/*PAGINATION STYLE_______________________________________________________________________*/
+
+.pagination {
+    color: white;
+}
+
+.pagination:visited{
+   color: #5299a8;
+}
+
+.paginationCurrent{
+   color: white;
+   border: 1px dotted white;
+
+}
+.paginationCurrent:visited{
+   color: #5299a8;
+   border: 1px dotted white;
+}
+
+/*CONFIRMATION MESSAGE_______________________________________________________________________*/
+.confirmation{
+    text-align: center;
+    border: 2px solid #5299a8;
+    margin-left: 325px;
+    padding-top: 8px;
+    height: 25px;
+    position: relative;
+    top: 7px;
+    border-radius: 15px;
+    color: #5299a8;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+/*Duplicating and changing justify for costume input form*/
+.confirmation2{
+   text-align: center;
+   border: 2px solid #5299a8;
+   padding-top: 8px;
+   height: 25px;
+   border-radius: 15px;
+   color: #5299a8;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: white;
+   font-size: 18px;
+   font-weight: bold;
+   margin-top: 10px;
+   max-width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+}
+/*Duplicating and changing width for sku/order input form*/
+.confirmation3{
+    text-align: center;
+    border: 2px solid #5299a8;
+    padding-top: 8px;
+    height: 25px;
+    border-radius: 15px;
+    color: #5299a8;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    
+ }
+
+/*____________________________________________________________________________________________*/   
+
+
+
+/*GENERAL SEARCH PAGE STYLE_______________________________________________________________________*/
+
+.formfix{/*Fixes the odd spacing above the medium buttons under the search bar*/
+    height:70px;
+}
+
+.searchbarshift{
+    position: relative;
+    left: -155px;
+    }
+
+.searchBGcolor {
+    background-color: #3a2f27;
+    opacity: 0.75;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.buttonline{/*This aligns the medium buttons to the left under search bar*/
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+    height: 58px;
+     }
+
+.buttonlineOrder{/*This aligns the medium buttons to the left under search bar*/
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+    height: 58px;
+}     
+
+.addButtonplace{ /*This aligns the add costume button to the left near square buttons*/
+     float:left;
+ }
+
+ .float-panel {
+     position: fixed;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 800px;
+     background-color: rgba(255,255,255,.8);
+     padding-top: 10px;
+ }
+
+ .results {
+     display: block;
+     margin-top: 150px;
+ }
+
+
+/*____________________________________________________________________________________________*/   
+
+
+
+/*GENERAL ENTRY FORM AND SEARCH PAGE STYLE_______________________________________________________________________*/
+.float {
+    float: center;
+    margin: 0 0 10px 10px;
+    display: inline-block;
+}
+
+b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    color: #5299a8;
+}
+
+.bar{
+    background-color: #5299A8; 
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 5px 0 5px 0;
+ }
+
+.imgBackground{
+    background-color: white;
+    border: 5px soild black;
+    height: 50%;
+    max-width: 639px;
+    text-align: center;
+    margin: auto;
+ }
+
+ #output_image {/*Image File Upload Preview Style*/
+    max-width:300px;
+   }
+
+/*____________________________________________________________________________________________*/   
+
+
+
+/*_______________________________PAGE BACKGROUND AND ENTRY FORM LAYOUTS_______________________________*/
+
+
+/*OPENING PAGE_________________________________________________________________________*/  
+#OpenPageBG{
+    background: url(Images/Site/Open.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*_____________________________________________________________________________________*/
+
+
+/*INVENTORY PAGE_______________________________________________________________________*/
+#IventoryPageBG{
+    background: url(../Images/Site/Inventory.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*_____________________________________________________________________________________*/
+
+
+/*COSTUME SEARCH PAGE_________________________________________________________________________*/
+#CostumePageBG{
+    background: url(../Images/Site/Costumes.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*_____________________________________________________________________________________*/  
+
+
+/*COSTUME ENTRY FORM_________________________________________________________________________*/
+.item_num {
+    position: relative;
+    left: -62px;
+}
+
+.item_name {
+    position: relative;
+    left: -186px;
+}
+
+.descr {
+    position: relative;
+    left: -261px;
+}
+
+.gender {
+    position: relative;
+    left: -56px;
+}
+
+.size {
+    position: relative;
+    left: -66px;
+}
+
+.item_color {
+    position: relative;
+    left: -64px;
+}
+
+.loc {
+    position: relative;
+    left: -160px;
+}
+
+.price {
+    position: relative;
+    left: -66px;
+}
+/*_____________________________________________________________________________________*/  
+
+/*PROPS SEARCH PAGE_________________________________________________________________________*/
+#PropPageBG{
+    background: url(../Images/Site/Props.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*_____________________________________________________________________________________*/  
+
+
+/*PROP ENTRY FORM_________________________________________________________________________*/
+.Propitem_num {
+    position: relative;
+    left: -62px;
+}
+
+.Propitem_name {
+    position: relative;
+    left: -186px;
+}
+
+.Propdescr {
+    position: relative;
+    left: -261px;
+}
+
+.Propitem_color {
+    position: relative;
+    left: -73px;
+}
+
+.Proploc {
+    position: relative;
+    left: -55px;
+}
+
+.Propprice {
+    position: relative;
+    left: -53px;
+}
+/*_____________________________________________________________________________________*/  
+
+
+/*SCRIPTS SEARCH PAGE_________________________________________________________________________*/
+#ScriptPageBG{
+    background: url(../Images/Site/Scripts.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*_____________________________________________________________________________________*/  
+
+
+/*SCRIPT ENTRY FORM_________________________________________________________________________*/
+.Scriptitem_num {
+    position: relative;
+    left: -62px;
+}
+
+.Scriptitem_name {
+    position: relative;
+    left: -186px;
+}
+
+.Scriptdescr {
+    position: relative;
+    left: -261px;
+}
+
+.Scriptloc {
+    position: relative;
+    left: -160px;
+}
+
+.Scriptprice {
+    position: relative;
+    left: -66px;
+}
+/*_____________________________________________________________________________________*/  
+
+
+/*ORDER FORM PAGE_________________________________________________________________________*/
+#NewOrderBG{
+    background: url(../Images/Site/Order.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#orderForm {
+    margin-bottom: -60px;
+}
+
+#placeHolder {
+    padding-top: 2px;
+    height: 50px;
+}
+
+#total {
+    display: inline-block;
+    max-width: 150px;
+    border: 1px solid black;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*_____________________________________________________________________________________*/  
+
+
+/*CUSTOMER SEARCH PAGE_________________________________________________________________________*/
+#CustomerPageBG{
+    background: url(../Images/Site/Customer.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*_____________________________________________________________________________________*/  
+
+
+/*CUSTOMER ENTRY FORM_________________________________________________________________________*/
+    .first {
+        position: relative;
+        left: -125px;
+    }
+    
+    .last {
+        position: relative;
+        left: -125px;
+    }
+    
+    .business {
+        position: relative;
+        left: -308px;
+    }
+
+    .address {
+        position: relative;
+        left: -217px;
+    }
+    
+    .address_2 {
+        position: relative;
+        left: -48px;
+    }
+    
+    .city {
+        position: relative;
+        left: -138px;
+    }
+    
+    .state {
+        position: relative;
+        left: -48px;
+    }
+    
+    .zip {
+        position: relative;
+        left: -5px;
+        width: 80px;
+    }
+
+    .zipBox {
+        width: 200px;
+    }
+    
+    .phone {
+        position: relative;
+        left: -142px;
+    }
+
+    .altPhone {
+        position: relative;
+        left: -110px;
+    }
+    
+    .email {
+        position: relative;
+        left: -315px;
+    }
+/*_____________________________________________________________________________________*/  
+
+/*Order Form styles____________________________________________________________________*/  
+.OrderPageWrap{
+    width:920px;
+    display:inline-block;
+    
+}
+
+.XbuttonCust{
+    background-color:  #fa3030;
+    float:right;
+    margin-right:10px;
+    color: White;
+}
+.XbuttonCust:hover{
+    background-color:  #3a2f27;
+    margin-right:10px;
+    color: White;
+}
+
+.Xbutton{
+    background-color:  #fa3030;
+    float:right;
+    position: relative;
+    top:-17px;
+    right:-7px;
+    margin-right:10px;
+    color: White;
+}
+.Xbutton:hover{
+    background-color:  #3a2f27;
+    margin-right:10px;
+    color: White;
+}
+
+.DateLine{
+    height:135px;
+    width:250px;
+    float:right;
+    position: relative;
+    right:55px;
+    border: 1px solid #3a2f27;
+}
+
+.date{
+    text-align: right;
+    color: #3a2f27;
+    font-size: 20px;
+    Margin-left: 10px;
+    margin-right:5px;
+    margin-top:5px;
+    font-weight: bold; 
+    border-bottom: solid 2px; 
+    border-color: #5299a8; 
+}
+
+
+.CustomerBox{
+    display:inline-block;
+    position: relative;
+    left:-26px;
+    height:135px;
+    width:500px;
+    border-top: 2px solid #3a2f27;
+    border-bottom: 2px solid #3a2f27;
+       }
+
+.CustomerName{
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: -15px;
+    padding-top: 10px
+}
+
+.CustomerOrderFont{
+    font-size:20px;
+    color:#3a2f27;
+    letter-spacing: 3px;
+    line-height: 25px; 
+    margin:5px;
+
+}
+
+.OutProcessor{
+    position: relative;
+    right:-20px;
+}
+
+.DueDateWidth{
+    width:125px;
+}
+
+.OrderFormInputBarShift{
+    position: relative;
+    left: -100px;
+    }
+
+.OrderFormSearchBGcolor {
+    background-color: #3a2f27;
+    opacity: 0.75;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+.SkuSearchPosition{
+    position: relative;
+    top:-57px;
+    right: -150px;
+}
+
+.BlueLineDivide{
+    Border: Solid 1px;
+    Border-color:#6299a8;
+    width: 950px;
+    display: block;
+    float:left;
+    text-align: center;
+}
+
+
+.XbuttonItem{
+    background-color:  #5299A8;
+    float:right;
+    margin-right:10px;
+    color: White;
+}
+.XbuttonItem:hover{
+    background-color:  #3a2f27;
+    float:right;
+    margin-right:10px;
+    color: White;
+}
+
+.OrderItemList{
+    width:194px;
+    height:60px;
+    margin-top: 1px;
+    font-size: 14.5px;
+    text-transform: uppercase;
+    margin: 1.5px;
+}
+
+.itemImg {
+    height: 55px;
+    position: relative;
+    right:-45px;
+    top:-15px;
+}
+
+
+.SkuMove{
+    float:left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.PriceMove{
+    float:left;
+}
+
+.SubTotal{
+    height:25px;
+    width:280px;
+    float:right;
+    position: relative;
+    right:55px;
+    border: 1px solid #3a2f27;
+    background-color: #6c6660;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+.SubWordingMove{
+    padding-left:9px;
+    position: relative;
+    top:4px;
+}
+
+.PercentMove{
+    height:90px;
+    width:280px;
+    float:right;
+    position: relative;
+    top:8px;
+    right:-498px;
+    border: 1px solid #3a2f27;
+    padding-top:5px;
+}
+
+.AmountSelectMove{
+    position: relative;
+    left:45px;
+}
+
+.PercentButtons{
+    position: relative;
+    top:10px;
+}
+
+.FinalTotalMove{
+    height:25px;
+    width:280px;
+    display:block;
+    position: relative;
+    left:583px;
+    top:-15px;
+    border: 1px solid #3a2f27;
+    background-color: #6c6660;
+  }
+
+.FinalTotal{
+    text-align: left;
+    padding-left:9px;
+    padding-top:3px;
+    font-weight:bold;
+    color: white;
+}
+
+.PaidStatus{
+    position: relative;
+    top:-18px;
+    left:97px;
+    font-weight:bold;
+
+}
+
+.AmountPaid{
+    height:25px;
+    width:280px;
+    display:block;
+    position: relative;
+    left:583px;
+    top:-15px;
+    background-color: #5299a8;
+    border: 1px solid #3a2f27;
+    color:white;
+    padding-top: 3px;
+    font-weight: bold;
+  }
+
+  .AmountPaidInput{
+      width:100px;
+      position: relative;
+
+  }
+
+.listWidth{
+    width: 813px;
+    height:300px;
+    overflow-y: scroll;
+    border: 1px solid #3a2f27;
+    display:inline-block;
+}
+
+.compOrderForm {
+    display: inline-block;
+    max-width: 300px;
+}
+
+.discForm{
+    display: inline-block;
+    max-width: 100px;
+ }
+/*_____________________________________________________________________________________*/  
+
+
+/*Order Receipt styles____________________________________________________________________*/  
+    .pagesize{
+    width: 720px;
+    height:900px;
+    background-color:rgb(184, 184, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    display:inline-block;
+    text-align: center;
+    }
+ 
+    .GlendaText{
+        width:355px;
+        height:51px;
+        float:left;
+        font-size: 45px;
+        text-align: left;
+        margin: 10px;
+        }
+
+    td{
+        border: 1px solid black; 
+        text-transform: uppercase; 
+        }
+
+    .ReceiptText{
+        width:300px;
+        height:51px;
+        float:right;
+        font-size: 35px;
+        text-align: right;
+        margin: 10px;
+        margin-right:20px;
+        }
+
+        .BoldName{
+            font-size:25px;
+        }
+
+        .BoldDate{
+            font-size:18px;
+        }
+
+    .RenterInfo{
+        width:300px;
+        display:inline-block;
+        text-align: center;
+        font-weight:bold;
+        padding-top:15px;
+        Padding-bottom:15px;
+        margin-right:30px;
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        position: relative;
+        top:-20px;
+        right:-20px;
+        }
+
+       .InvoiceInfo{
+        width:230px;
+        display:inline-block;
+        text-align: right;
+        margin-top: 10px;
+   }
+
+    .InputInfo{
+        width:130px;
+        display:inline-block;
+        text-align: left;
+        margin: 9px;
+        height: 115px;
+
+    }
+
+     @media print {    
+        .noPrint {
+            display: none !important;
+        }
+    }
+
+    /*Getting rid of page title, date, and url on printed page*/
+    @page { size: auto;
+            margin-top: 0mm;
+            margin-bottom: 0mm;
+            margin-left: 1cm;
+            margin-right: 1cm;
+        }
+
+    /* Receipt Table Styles*/
+    .table1 {
+        width: 45%;
+        border: 1px solid black;
+        float: left;
+        margin-left: 10px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .table2 {
+        width: 45%;
+        border: 1px solid black;
+        float: right;
+        margin-right: 10px;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .clear {
+        display: none;
+        clear: both;
+        padding: 0;
+        margin: 0;
+    }
+
+
+      .TotalItems{
+        width:300px;
+        display:inline-block;
+        text-align: right;
+        margin: 10px;
+      }
+
+      .TotalItemsInfo{
+        width:100px;
+        display:inline-block;
+        text-align: left;
+        margin-right: 10px;
+        font-weight: bold;
+      }
+      .RightSide{
+          float:right;
+      }
+
+/*_____________________________________________________________________________________*/  
+
+/*Return Form styles____________________________________________________________________*/  
+
+.ReturnDateLine{
+    height:135px;
+    width:250px;
+    float:right;
+    position: relative;
+    border: 1px solid #3a2f27;
+    right:55px;
+}
+
+.ReturnInfo{
+    float: left;
+    text-align: right;
+    padding-left:9px;
+    font-weight: bold;
+    width: 130px;
+}
+
+.ReturnFills{
+    text-align: left;
+    float: right;
+    width: 105px;
+   
+}
+
+.ReturnInput{
+    text-align: right;
+    font-weight: bold;
+    border: 1px solid #3a2f27;
+}
+
+.blackline{
+    border: 1px solid;
+    border-color: #5299a8;
+    display: inline-block;
+    width:225px;
+   }
+
+.ReturnDate{
+    color: #3a2f27;
+    margin-top:5px;
+    font-weight: bold; 
+}
+
+.ReturnProcessor{
+    position: relative;
+    right:-20px;
+}
+
+.ReturnProcessor2{
+    margin-top: 5px;
+}
+
+.clerk{
+    text-transform: capitalize;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.selectReturns{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 130px;
+    font-size: 18px;
+    background: #ffffff;
+}
+
+.itemImgReturns {
+    max-height: 55px;
+    float:right;
+    position: relative;
+    top:-14px;
+    right:2px;
+}
+
+.StatusMove{
+    float: left;
+    position: relative;
+    top:5px;
+}
+
+/*_____________________________________________________________________________________*/  
+
+/*Order History Styles____________________________________________________________________*/
+.PayStatHistory {
+    margin-left: 45px;
+    color: black;
+    background-color: white;
+    padding: 1px 7px 1px 7px;
+}
+
+
+.discForm2{
+    display: inline-block;
+    width:280px;
+    height:60px;
+    border: 1px solid #3a2f27;
+    position: relative;
+    top:8px;
+    right:-407px;
+    padding-top:5px;
+    line-height: 1.6;
+    text-align: left;
+    font-weight: bold;
+ }
+
+/*_____________________________________________________________________________________*/  
+
+
+/*Missing Items Log styles____________________________________________________________________*/  
+
+
+.MissinglistLeftCol {
+    float: left;
+    width: 407px;
+    line-height: 150%;
+    margin-left:15px;
+ 
+}
+
+.MissinglistImageCol {
+    float: left;
+    width:250px;
+    text-align: center;
+
+}
+.MissingSku{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.MissingItemImageWidth{
+    height: 220px;
+}
+
+.MissinglistRightCol {
+    float: right;
+    width: 120px;
+}
+
+.MissingReturnButtonPosition {
+    margin-top: 5.5px;
+}
+
+.MissingBottomDivideLine {
+    text-align: left;
+    border-bottom:  2px solid black;
+    overflow: hidden;
+}
+
+
+
+
+.fleft{
+ float: center;
+
+}
+
+
+.formButtonCont {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    border: Black solid 1px;
+}
+
+    
+h1 {
+    background: #5299a8;
+    font-family: arial;
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+ }

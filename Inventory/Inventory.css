@@ -1,0 +1,46 @@
+body {
+text-align: center;
+}
+
+#IventoryPagePic{
+    background: url(../Images/Site/Inventory.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.OpenButton {
+    background-color: #5299a8;
+    border: 2px solid white;
+    color:white;
+    padding: 15px 32px;
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    float: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,1.0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.OpenButton:hover {
+    background-color: #5e5043;
+    color: white;
+}
+
+
+#TitleBarPic{
+margin-bottom: 60px;
+max-width: 100%;
+height: auto;
+}
+
+#Copyright{
+color: white;
+position: fixed;
+bottom: 0;
+right: 0;
+padding-right: 18px;
+}
